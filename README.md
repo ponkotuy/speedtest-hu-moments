@@ -69,10 +69,12 @@ sbt -Dhu.image=/path/to/image.png "Jmh/run -i 5 -wi 3 -f1 -tu ms humoments.HuMom
 このプロジェクトはApache License 2.0の下で提供されます。詳細は [LICENSE](LICENSE) を参照してください。
 
 ## 結果
-[info] Benchmark                                  Mode  Cnt  Score   Error  Units
-[info] HuMomentsBenchmark.existingArrayEndToEnd   avgt    5  7.675 ± 0.097  ms/op
-[info] HuMomentsBenchmark.existingArrayPreloaded  avgt    5  1.576 ± 0.037  ms/op
-[info] HuMomentsBenchmark.imageIoEndToEnd         avgt    5  6.501 ± 0.181  ms/op
-[info] HuMomentsBenchmark.imageIoPreloaded        avgt    5  1.991 ± 0.011  ms/op
-[info] HuMomentsBenchmark.openCvEndToEnd          avgt    5  5.110 ± 0.027  ms/op
-[info] HuMomentsBenchmark.openCvPreloaded         avgt    5  1.024 ± 0.006  ms/op
+
+| Benchmark | Mode | Cnt | Score | Error | Units |
+| --- | --- | ---: | ---: | ---: | --- |
+| `HuMomentsBenchmark.existingArrayEndToEnd` | avgt | 5 | 7.675 | ± 0.097 | ms/op |
+| `HuMomentsBenchmark.existingArrayPreloaded` | avgt | 5 | 1.576 | ± 0.037 | ms/op |
+| `HuMomentsBenchmark.imageIoEndToEnd` | avgt | 5 | 6.501 | ± 0.181 | ms/op |
+| `HuMomentsBenchmark.imageIoPreloaded` | avgt | 5 | 1.991 | ± 0.011 | ms/op |
+| `HuMomentsBenchmark.openCvEndToEnd` | avgt | 5 | 5.110 | ± 0.027 | ms/op |
+| `HuMomentsBenchmark.openCvPreloaded` | avgt | 5 | 1.024 | ± 0.006 | ms/op |
