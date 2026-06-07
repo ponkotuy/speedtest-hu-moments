@@ -6,6 +6,7 @@ This repository compares Hu Moments implementations on Scala/JVM. OpenCV is the 
 
 ## Project Rules
 
+- Treat the repository as Apache-2.0 licensed. Keep `LICENSE` present and add `SPDX-License-Identifier: Apache-2.0` to new source/config files when practical.
 - Keep Hu Moments semantics aligned with OpenCV `Imgproc.moments(image, false)`.
 - Do not binarize pixels unless a future task explicitly changes the benchmark target.
 - Any new implementation must be checked against `OpenCvHuMoments` before benchmark results are trusted.

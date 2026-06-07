@@ -1,7 +1,10 @@
+// SPDX-License-Identifier: Apache-2.0
+
 import scala.util.Try
 
 ThisBuild / scalaVersion := "2.13.16"
 ThisBuild / organization := "local.speedtest"
+ThisBuild / licenses := Seq("Apache-2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0"))
 
 def javaFeatureVersion: Int = {
   val version = sys.props.getOrElse("java.specification.version", "8")

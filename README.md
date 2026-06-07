@@ -64,6 +64,10 @@ sbt -Dhu.image=/path/to/image.png "Jmh/run -i 5 -wi 3 -f1 -tu ms humoments.HuMom
 
 厳密な差分チェックはImageIOとOpenCVのデコード結果が一致することを前提にしています。生成画像と同様のグレースケール画像での利用を推奨します。
 
+## ライセンス
+
+このプロジェクトはApache License 2.0の下で提供されます。詳細は [LICENSE](LICENSE) を参照してください。
+
 ## 結果
 [info] Benchmark                                  Mode  Cnt  Score   Error  Units
 [info] HuMomentsBenchmark.existingArrayEndToEnd   avgt    5  7.675 ± 0.097  ms/op
